@@ -1,0 +1,28 @@
+{
+  "name": "reactrpg",
+  "version": "1.0.0",
+  "description": "App for rpg ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register --reporter dot --recursive "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-react": "^6.11.1",
+    "react": "^15.2.1",
+    "should": "^10.0.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.5.3"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
